@@ -73,6 +73,7 @@
     <Content Include="FrmResponseWrite.aspx" />
     <Content Include="Web.config" />
     <Content Include="FrmASPNET.aspx" />
+    <Content Include="FrmRequestUserHostAddress.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FrmRequest.aspx.cs">
@@ -110,6 +111,13 @@
     </Compile>
     <Compile Include="FrmASPNET.aspx.designer.cs">
       <DependentUpon>FrmASPNET.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRequestUserHostAddress.aspx.cs">
+      <DependentUpon>FrmRequestUserHostAddress.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmRequestUserHostAddress.aspx.designer.cs">
+      <DependentUpon>FrmRequestUserHostAddress.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

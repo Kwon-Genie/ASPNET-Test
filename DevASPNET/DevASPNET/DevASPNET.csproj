@@ -155,6 +155,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Chapter4\" />
     <Folder Include="Chapter5\" />
   </ItemGroup>
   <PropertyGroup>

@@ -75,6 +75,7 @@
     <Content Include="Chapter4\FrmResponseRedirect.aspx" />
     <Content Include="Chapter4\FrmResponseWrite.aspx" />
     <Content Include="Chapter4\FrmServerMapPath.aspx" />
+    <Content Include="Chapter5\FrmLabel.aspx" />
     <Content Include="Chapter5\FrmStandardControl.aspx" />
     <Content Include="Web.config" />
     <Content Include="Chapter4\FrmASPNET.aspx" />
@@ -129,6 +130,13 @@
     </Compile>
     <Compile Include="Chapter4\FrmServerMapPath.aspx.designer.cs">
       <DependentUpon>FrmServerMapPath.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter5\FrmLabel.aspx.cs">
+      <DependentUpon>FrmLabel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter5\FrmLabel.aspx.designer.cs">
+      <DependentUpon>FrmLabel.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chapter5\FrmStandardControl.aspx.cs">
       <DependentUpon>FrmStandardControl.aspx</DependentUpon>

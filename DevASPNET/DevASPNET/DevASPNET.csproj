@@ -76,6 +76,7 @@
     <Content Include="Chapter4\FrmResponseWrite.aspx" />
     <Content Include="Chapter4\FrmServerMapPath.aspx" />
     <Content Include="Chapter5\FrmButton.aspx" />
+    <Content Include="Chapter5\FrmCommandControl.aspx" />
     <Content Include="Chapter5\FrmImageButton.aspx" />
     <Content Include="Chapter5\FrmLabel.aspx" />
     <Content Include="Chapter5\FrmLinkButton.aspx" />
@@ -141,6 +142,13 @@
     </Compile>
     <Compile Include="Chapter5\FrmButton.aspx.designer.cs">
       <DependentUpon>FrmButton.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter5\FrmCommandControl.aspx.cs">
+      <DependentUpon>FrmCommandControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter5\FrmCommandControl.aspx.designer.cs">
+      <DependentUpon>FrmCommandControl.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chapter5\FrmImageButton.aspx.cs">
       <DependentUpon>FrmImageButton.aspx</DependentUpon>

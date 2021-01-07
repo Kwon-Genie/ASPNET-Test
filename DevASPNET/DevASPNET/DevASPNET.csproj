@@ -82,6 +82,7 @@
     <Content Include="Chapter5\FrmLinkButton.aspx" />
     <Content Include="Chapter5\FrmStandardControl.aspx" />
     <Content Include="Chapter5\FrmTextBox.aspx" />
+    <Content Include="Chapter6\FrmHyperLink.aspx" />
     <Content Include="Web.config" />
     <Content Include="Chapter4\FrmASPNET.aspx" />
     <Content Include="Chapter4\FrmRequestUserHostAddress.aspx" />
@@ -185,6 +186,13 @@
     <Compile Include="Chapter5\FrmTextBox.aspx.designer.cs">
       <DependentUpon>FrmTextBox.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Chapter6\FrmHyperLink.aspx.cs">
+      <DependentUpon>FrmHyperLink.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter6\FrmHyperLink.aspx.designer.cs">
+      <DependentUpon>FrmHyperLink.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Chapter4\FrmASPNET.aspx.cs">
       <DependentUpon>FrmASPNET.aspx</DependentUpon>
@@ -210,9 +218,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Chapter6\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

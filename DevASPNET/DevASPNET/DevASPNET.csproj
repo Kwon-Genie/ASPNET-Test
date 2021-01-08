@@ -84,6 +84,7 @@
     <Content Include="Chapter5\FrmTextBox.aspx" />
     <Content Include="Chapter6\FrmHyperLink.aspx" />
     <Content Include="Chapter6\FrmImage.aspx" />
+    <Content Include="Chapter6\FrmImageMap.aspx" />
     <Content Include="Web.config" />
     <Content Include="Chapter4\FrmASPNET.aspx" />
     <Content Include="Chapter4\FrmRequestUserHostAddress.aspx" />
@@ -200,6 +201,13 @@
     </Compile>
     <Compile Include="Chapter6\FrmImage.aspx.designer.cs">
       <DependentUpon>FrmImage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter6\FrmImageMap.aspx.cs">
+      <DependentUpon>FrmImageMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter6\FrmImageMap.aspx.designer.cs">
+      <DependentUpon>FrmImageMap.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Chapter4\FrmASPNET.aspx.cs">

@@ -92,6 +92,7 @@
     <Content Include="Chapter6\FrmImageMap.aspx" />
     <Content Include="Chapter6\FrmListBox.aspx" />
     <Content Include="Chapter6\FrmTable.aspx" />
+    <Content Include="Chapter6\FrmRadioButton.aspx" />
     <Content Include="Web.config" />
     <Content Include="Chapter4\FrmASPNET.aspx" />
     <Content Include="Chapter4\FrmRequestUserHostAddress.aspx" />
@@ -264,6 +265,13 @@
     </Compile>
     <Compile Include="Chapter6\FrmTable.aspx.designer.cs">
       <DependentUpon>FrmTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter6\FrmRadioButton.aspx.cs">
+      <DependentUpon>FrmRadioButton.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter6\FrmRadioButton.aspx.designer.cs">
+      <DependentUpon>FrmRadioButton.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Chapter4\FrmASPNET.aspx.cs">

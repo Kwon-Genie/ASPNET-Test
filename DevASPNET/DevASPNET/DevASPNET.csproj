@@ -88,6 +88,7 @@
     <Content Include="Chapter6\FrmHyperLink.aspx" />
     <Content Include="Chapter6\FrmImage.aspx" />
     <Content Include="Chapter6\FrmImageMap.aspx" />
+    <Content Include="Chapter6\FrmListBox.aspx" />
     <Content Include="Chapter6\FrmTable.aspx" />
     <Content Include="Web.config" />
     <Content Include="Chapter4\FrmASPNET.aspx" />
@@ -233,6 +234,13 @@
     </Compile>
     <Compile Include="Chapter6\FrmImageMap.aspx.designer.cs">
       <DependentUpon>FrmImageMap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter6\FrmListBox.aspx.cs">
+      <DependentUpon>FrmListBox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter6\FrmListBox.aspx.designer.cs">
+      <DependentUpon>FrmListBox.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chapter6\FrmTable.aspx.cs">
       <DependentUpon>FrmTable.aspx</DependentUpon>

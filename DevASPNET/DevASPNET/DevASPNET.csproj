@@ -83,6 +83,7 @@
     <Content Include="Chapter5\FrmStandardControl.aspx" />
     <Content Include="Chapter5\FrmTextBox.aspx" />
     <Content Include="Chapter6\FrmBulletedList.aspx" />
+    <Content Include="Chapter6\FrmDropDowList.aspx" />
     <Content Include="Chapter6\FrmHtml.aspx" />
     <Content Include="Chapter6\FrmHyperLink.aspx" />
     <Content Include="Chapter6\FrmImage.aspx" />
@@ -197,6 +198,13 @@
     </Compile>
     <Compile Include="Chapter6\FrmBulletedList.aspx.designer.cs">
       <DependentUpon>FrmBulletedList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter6\FrmDropDowList.aspx.cs">
+      <DependentUpon>FrmDropDowList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter6\FrmDropDowList.aspx.designer.cs">
+      <DependentUpon>FrmDropDowList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chapter6\FrmHtml.aspx.cs">
       <DependentUpon>FrmHtml.aspx</DependentUpon>

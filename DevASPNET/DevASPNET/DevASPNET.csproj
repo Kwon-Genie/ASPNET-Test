@@ -90,6 +90,7 @@
     <Content Include="Chapter6\FrmHyperLink.aspx" />
     <Content Include="Chapter6\FrmImage.aspx" />
     <Content Include="Chapter6\FrmImageMap.aspx" />
+    <Content Include="Chapter6\FrmInputControl.aspx" />
     <Content Include="Chapter6\FrmListBox.aspx" />
     <Content Include="Chapter6\FrmRadioButtonList.aspx" />
     <Content Include="Chapter6\FrmTable.aspx" />
@@ -252,6 +253,13 @@
     </Compile>
     <Compile Include="Chapter6\FrmImageMap.aspx.designer.cs">
       <DependentUpon>FrmImageMap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter6\FrmInputControl.aspx.cs">
+      <DependentUpon>FrmInputControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter6\FrmInputControl.aspx.designer.cs">
+      <DependentUpon>FrmInputControl.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chapter6\FrmListBox.aspx.cs">
       <DependentUpon>FrmListBox.aspx</DependentUpon>

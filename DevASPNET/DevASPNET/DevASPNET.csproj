@@ -93,6 +93,7 @@
     <Content Include="Chapter6\FrmImageMap.aspx" />
     <Content Include="Chapter6\FrmInputControl.aspx" />
     <Content Include="Chapter6\FrmListBox.aspx" />
+    <Content Include="Chapter6\FrmLiteral.aspx" />
     <Content Include="Chapter6\FrmRadioButtonList.aspx" />
     <Content Include="Chapter6\FrmTable.aspx" />
     <Content Include="Chapter6\FrmRadioButton.aspx" />
@@ -275,6 +276,13 @@
     </Compile>
     <Compile Include="Chapter6\FrmListBox.aspx.designer.cs">
       <DependentUpon>FrmListBox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter6\FrmLiteral.aspx.cs">
+      <DependentUpon>FrmLiteral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter6\FrmLiteral.aspx.designer.cs">
+      <DependentUpon>FrmLiteral.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chapter6\FrmRadioButtonList.aspx.cs">
       <DependentUpon>FrmRadioButtonList.aspx</DependentUpon>

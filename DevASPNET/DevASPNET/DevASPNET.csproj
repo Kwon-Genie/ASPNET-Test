@@ -86,6 +86,7 @@
     <Content Include="Chapter6\FrmCheckBox.aspx" />
     <Content Include="Chapter6\FrmCheckBoxList.aspx" />
     <Content Include="Chapter6\FrmDropDowList.aspx" />
+    <Content Include="Chapter6\FrmHiddenField.aspx" />
     <Content Include="Chapter6\FrmHtml.aspx" />
     <Content Include="Chapter6\FrmHyperLink.aspx" />
     <Content Include="Chapter6\FrmImage.aspx" />
@@ -225,6 +226,13 @@
     </Compile>
     <Compile Include="Chapter6\FrmDropDowList.aspx.designer.cs">
       <DependentUpon>FrmDropDowList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter6\FrmHiddenField.aspx.cs">
+      <DependentUpon>FrmHiddenField.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter6\FrmHiddenField.aspx.designer.cs">
+      <DependentUpon>FrmHiddenField.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chapter6\FrmHtml.aspx.cs">
       <DependentUpon>FrmHtml.aspx</DependentUpon>

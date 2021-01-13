@@ -11,7 +11,29 @@ namespace ProjectSample.Views
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!Page.IsPostBack)
+            {
+                InitialControls();
+            }
+            DataSetting();
 
         }
+
+        #region initialsetting
+
+        private void InitialControls()
+        {
+
+        }
+        #endregion
+
+        #region DataSelect
+        private void DataSetting()
+        {
+
+        }
+        #endregion
+
+
     }
 }

@@ -10,6 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:RadioButtonList ID="lstStep" runat="server" RepeatDirection="Horizontal"></asp:RadioButtonList>
         </div>
     </form>
 </body>

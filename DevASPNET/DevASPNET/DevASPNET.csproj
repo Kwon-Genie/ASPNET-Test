@@ -97,6 +97,8 @@
     <Content Include="Chapter6\FrmRadioButtonList.aspx" />
     <Content Include="Chapter6\FrmTable.aspx" />
     <Content Include="Chapter6\FrmRadioButton.aspx" />
+    <Content Include="Chapter7\FrmAdRotator.aspx" />
+    <Content Include="Chapter7\FrmAdRotator.xml" />
     <Content Include="Chapter7\FrmCalendar.aspx" />
     <Content Include="Chapter7\FrmCalendarQueryString.aspx" />
     <Content Include="Web.config" />
@@ -306,6 +308,13 @@
     </Compile>
     <Compile Include="Chapter6\FrmRadioButton.aspx.designer.cs">
       <DependentUpon>FrmRadioButton.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter7\FrmAdRotator.aspx.cs">
+      <DependentUpon>FrmAdRotator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter7\FrmAdRotator.aspx.designer.cs">
+      <DependentUpon>FrmAdRotator.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chapter7\FrmCalendar.aspx.cs">
       <DependentUpon>FrmCalendar.aspx</DependentUpon>

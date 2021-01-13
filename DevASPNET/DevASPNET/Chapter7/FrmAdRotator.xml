@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>https://img7.yna.co.kr/etc/inner/KR/2020/01/03/AKR20200103136600005_01_i_P2.jpg</ImageUrl>
+		<NavigateUrl>https://www.naver.com/</NavigateUrl>
+		<AlternateText>아이유</AlternateText>
+		<Keyword>아이유</Keyword>
+		<Impressions>25</Impressions>
+	</Ad>
+	<Ad>
+		<ImageUrl>https://img.insight.co.kr/static/2017/09/26/700/437u18uxn755ook8mb6e.jpg</ImageUrl>
+		<NavigateUrl>https://www.google.com/</NavigateUrl>
+		<AlternateText>이제훈</AlternateText>
+		<Keyword>이제훈</Keyword>
+		<Impressions>25</Impressions>
+	</Ad>
+	<Ad>
+		<ImageUrl>https://spnimage.edaily.co.kr/images/Photo/files/NP/S/2020/09/PS20092200106.jpg</ImageUrl>
+		<NavigateUrl>https://www.daum.com/</NavigateUrl>
+		<AlternateText>신세경</AlternateText>
+		<Keyword>신세경</Keyword>
+		<Impressions>25</Impressions>
+	</Ad>
+	<Ad>
+		<ImageUrl>https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2018/08/13/P3gT022T9nc5636697740033718734.jpg</ImageUrl>
+		<NavigateUrl>https://www.kakao.com/</NavigateUrl>
+		<AlternateText>박보영</AlternateText>
+		<Keyword>박보영</Keyword>
+		<Impressions>25</Impressions>
+	</Ad>
+</Advertisements>

@@ -23,7 +23,14 @@ namespace ProjectSample.Views
 
         private void InitialControls()
         {
-
+            // 업무스텝 정의
+            this.lstStep.Items.Add(new ListItem("전체", "A"));
+            this.lstStep.Items.Add(new ListItem("개발의뢰", "R"));
+            this.lstStep.Items.Add(new ListItem("사전검토", "E"));
+            this.lstStep.Items.Add(new ListItem("개발", "D"));
+            this.lstStep.Items.Add(new ListItem("테스트", "T"));
+            this.lstStep.Items.Add(new ListItem("이관", "M"));
+            this.lstStep.Items.Add(new ListItem("운영", "O"));
         }
         #endregion
 

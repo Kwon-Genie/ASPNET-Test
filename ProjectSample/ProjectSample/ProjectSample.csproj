@@ -67,10 +67,42 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Views\ProjectManage\RPARequestC.aspx" />
+    <Content Include="Views\ProjectManage\RPARequestList.aspx" />
+    <Content Include="Views\ProjectManage\RPARequestR.aspx" />
+    <Content Include="Views\ProjectManage\RPARequestU.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\ProjectManage\RPARequestC.aspx.cs">
+      <DependentUpon>RPARequestC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ProjectManage\RPARequestC.aspx.designer.cs">
+      <DependentUpon>RPARequestC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProjectManage\RPARequestList.aspx.cs">
+      <DependentUpon>RPARequestList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ProjectManage\RPARequestList.aspx.designer.cs">
+      <DependentUpon>RPARequestList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProjectManage\RPARequestR.aspx.cs">
+      <DependentUpon>RPARequestR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ProjectManage\RPARequestR.aspx.designer.cs">
+      <DependentUpon>RPARequestR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProjectManage\RPARequestU.aspx.cs">
+      <DependentUpon>RPARequestU.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ProjectManage\RPARequestU.aspx.designer.cs">
+      <DependentUpon>RPARequestU.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -85,7 +117,6 @@
     <Folder Include="Biz\" />
     <Folder Include="Dao\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

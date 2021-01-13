@@ -97,6 +97,7 @@
     <Content Include="Chapter6\FrmRadioButtonList.aspx" />
     <Content Include="Chapter6\FrmTable.aspx" />
     <Content Include="Chapter6\FrmRadioButton.aspx" />
+    <Content Include="Chapter7\FrmCalendar.aspx" />
     <Content Include="Web.config" />
     <Content Include="Chapter4\FrmASPNET.aspx" />
     <Content Include="Chapter4\FrmRequestUserHostAddress.aspx" />
@@ -305,6 +306,13 @@
     <Compile Include="Chapter6\FrmRadioButton.aspx.designer.cs">
       <DependentUpon>FrmRadioButton.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Chapter7\FrmCalendar.aspx.cs">
+      <DependentUpon>FrmCalendar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter7\FrmCalendar.aspx.designer.cs">
+      <DependentUpon>FrmCalendar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Chapter4\FrmASPNET.aspx.cs">
       <DependentUpon>FrmASPNET.aspx</DependentUpon>
@@ -330,9 +338,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Chapter7\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

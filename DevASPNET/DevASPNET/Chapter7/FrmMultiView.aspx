@@ -10,7 +10,17 @@
 <body>
     <form id="form1" runat="server">
         <div>
-
+            <asp:Label ID="lblTest" runat="server">
+                Text Test
+            </asp:Label>
+            <asp:MultiView ID="ctlMultiView1" runat="server">
+                <asp:View ID="ctlView1" runat="server">
+                    <asp:Button ID="btnLogin" runat="server" Text="로그인" OnClick="btnLogin_Click" />
+                </asp:View>
+                <asp:View ID="ctlView2" runat="server">
+                    <asp:Button ID="btnLogout" runat="server" Text="로그아웃" OnClick="btnLogout_Click" />
+                </asp:View>
+            </asp:MultiView>
         </div>
     </form>
 </body>

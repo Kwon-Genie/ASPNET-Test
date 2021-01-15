@@ -11,7 +11,20 @@ namespace DevASPNET.Chapter7
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!Page.IsPostBack)
+            {
+                ctlMultiView1.ActiveViewIndex = 0;
+            }
+        }
 
+        protected void btnLogin_Click(object sender, EventArgs e)
+        {
+            this.ctlMultiView1.ActiveViewIndex = 1;
+        }
+
+        protected void btnLogout_Click(object sender, EventArgs e)
+        {
+            this.ctlMultiView1.ActiveViewIndex = 0;
         }
     }
 }

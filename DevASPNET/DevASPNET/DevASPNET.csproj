@@ -101,7 +101,8 @@
     <Content Include="Chapter7\FrmAdRotator.xml" />
     <Content Include="Chapter7\FrmCalendar.aspx" />
     <Content Include="Chapter7\FrmCalendarQueryString.aspx" />
-    <Content Include="FrmFileUpload.aspx" />
+    <Content Include="Chapter7\FrmFileUpload.aspx" />
+    <Content Include="Chapter7\FrmWizard.aspx" />
     <Content Include="Web.config" />
     <Content Include="Chapter4\FrmASPNET.aspx" />
     <Content Include="Chapter4\FrmRequestUserHostAddress.aspx" />
@@ -331,12 +332,19 @@
     <Compile Include="Chapter7\FrmCalendarQueryString.aspx.designer.cs">
       <DependentUpon>FrmCalendarQueryString.aspx</DependentUpon>
     </Compile>
-    <Compile Include="FrmFileUpload.aspx.cs">
+    <Compile Include="Chapter7\FrmFileUpload.aspx.cs">
       <DependentUpon>FrmFileUpload.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="FrmFileUpload.aspx.designer.cs">
+    <Compile Include="Chapter7\FrmFileUpload.aspx.designer.cs">
       <DependentUpon>FrmFileUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter7\FrmWizard.aspx.cs">
+      <DependentUpon>FrmWizard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter7\FrmWizard.aspx.designer.cs">
+      <DependentUpon>FrmWizard.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Chapter4\FrmASPNET.aspx.cs">

@@ -105,6 +105,7 @@
     <Content Include="Chapter7\FrmMultiView.aspx" />
     <Content Include="Chapter7\FrmPanel.aspx" />
     <Content Include="Chapter7\FrmPlaceHolder.aspx" />
+    <Content Include="Chapter7\FrmSubstitution.aspx" />
     <Content Include="Chapter7\FrmWizard.aspx" />
     <Content Include="Chapter7\FrmXml.aspx" />
     <Content Include="Chapter7\FrmXml.xml" />
@@ -365,6 +366,13 @@
     </Compile>
     <Compile Include="Chapter7\FrmPlaceHolder.aspx.designer.cs">
       <DependentUpon>FrmPlaceHolder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter7\FrmSubstitution.aspx.cs">
+      <DependentUpon>FrmSubstitution.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter7\FrmSubstitution.aspx.designer.cs">
+      <DependentUpon>FrmSubstitution.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chapter7\FrmWizard.aspx.cs">
       <DependentUpon>FrmWizard.aspx</DependentUpon>

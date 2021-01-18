@@ -102,6 +102,7 @@
     <Content Include="Chapter7\FrmCalendar.aspx" />
     <Content Include="Chapter7\FrmCalendarQueryString.aspx" />
     <Content Include="Chapter7\FrmFileUpload.aspx" />
+    <Content Include="Chapter7\FrmLocalize.aspx" />
     <Content Include="Chapter7\FrmMultiView.aspx" />
     <Content Include="Chapter7\FrmPanel.aspx" />
     <Content Include="Chapter7\FrmPlaceHolder.aspx" />
@@ -345,6 +346,13 @@
     </Compile>
     <Compile Include="Chapter7\FrmFileUpload.aspx.designer.cs">
       <DependentUpon>FrmFileUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter7\FrmLocalize.aspx.cs">
+      <DependentUpon>FrmLocalize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter7\FrmLocalize.aspx.designer.cs">
+      <DependentUpon>FrmLocalize.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chapter7\FrmMultiView.aspx.cs">
       <DependentUpon>FrmMultiView.aspx</DependentUpon>

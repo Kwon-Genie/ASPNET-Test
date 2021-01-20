@@ -110,11 +110,13 @@
     <Content Include="Chapter7\FrmPanel.aspx" />
     <Content Include="Chapter7\FrmPlaceHolder.aspx" />
     <Content Include="Chapter7\FrmSubstitution.aspx" />
+    <Content Include="Chapter7\FrmValidationControl.aspx" />
     <Content Include="Chapter7\FrmWizard.aspx" />
     <Content Include="Chapter7\FrmXml.aspx" />
     <Content Include="Chapter7\FrmXml.xml" />
     <Content Include="Chapter7\FrmXml.xslt" />
     <None Include="Scripts\jquery-3.5.1.intellisense.js" />
+    <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-3.5.1.js" />
     <Content Include="Scripts\jquery-3.5.1.min.js" />
     <Content Include="Scripts\jquery-3.5.1.slim.js" />
@@ -390,6 +392,13 @@
     <Compile Include="Chapter7\FrmSubstitution.aspx.designer.cs">
       <DependentUpon>FrmSubstitution.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Chapter7\FrmValidationControl.aspx.cs">
+      <DependentUpon>FrmValidationControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter7\FrmValidationControl.aspx.designer.cs">
+      <DependentUpon>FrmValidationControl.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Chapter7\FrmWizard.aspx.cs">
       <DependentUpon>FrmWizard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -403,6 +412,9 @@
     </Compile>
     <Compile Include="Chapter7\FrmXml.aspx.designer.cs">
       <DependentUpon>FrmXml.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Chapter4\FrmASPNET.aspx.cs">
@@ -431,7 +443,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Chapter8\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

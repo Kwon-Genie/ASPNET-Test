@@ -348,3 +348,8 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/DevASPNET/DevASPNET/Global.asax
+/DevASPNET/DevASPNET/Global.asax.cs
+/DevASPNET/DevASPNET/Chapter7/FrmValidationControl.aspx.designer.cs
+/DevASPNET/DevASPNET/Chapter7/FrmValidationControl.aspx.cs
+/DevASPNET/DevASPNET/Chapter7/FrmValidationControl.aspx

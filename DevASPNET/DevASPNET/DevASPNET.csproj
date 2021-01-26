@@ -117,6 +117,7 @@
     <Content Include="Chapter7\FrmXml.xslt" />
     <None Include="Scripts\jquery-3.5.1.intellisense.js" />
     <Content Include="Chapter8\FrmRangeValidation.aspx" />
+    <Content Include="Chapter8\FrmRangeValidator.aspx" />
     <Content Include="Chapter8\FrmRequiredFieldValidator.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-3.5.1.js" />
@@ -421,6 +422,13 @@
     </Compile>
     <Compile Include="Chapter8\FrmRangeValidation.aspx.designer.cs">
       <DependentUpon>FrmRangeValidation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter8\FrmRangeValidator.aspx.cs">
+      <DependentUpon>FrmRangeValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter8\FrmRangeValidator.aspx.designer.cs">
+      <DependentUpon>FrmRangeValidator.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chapter8\FrmRequiredFieldValidator.aspx.cs">
       <DependentUpon>FrmRequiredFieldValidator.aspx</DependentUpon>

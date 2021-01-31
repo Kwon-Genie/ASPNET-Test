@@ -122,6 +122,7 @@
     <Content Include="Chapter8\FrmRangeValidator.aspx" />
     <Content Include="Chapter8\FrmRegularExpressionValidator.aspx" />
     <Content Include="Chapter8\FrmRequiredFieldValidator.aspx" />
+    <Content Include="Chapter8\FrmValidationSummary.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-3.5.1.js" />
     <Content Include="Scripts\jquery-3.5.1.min.js" />
@@ -460,6 +461,13 @@
     </Compile>
     <Compile Include="Chapter8\FrmRequiredFieldValidator.aspx.designer.cs">
       <DependentUpon>FrmRequiredFieldValidator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter8\FrmValidationSummary.aspx.cs">
+      <DependentUpon>FrmValidationSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter8\FrmValidationSummary.aspx.designer.cs">
+      <DependentUpon>FrmValidationSummary.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

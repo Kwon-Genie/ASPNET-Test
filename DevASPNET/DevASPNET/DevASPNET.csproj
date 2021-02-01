@@ -118,6 +118,7 @@
     <None Include="Scripts\jquery-3.5.1.intellisense.js" />
     <Content Include="Chapter8\FrmCompareValidator.aspx" />
     <Content Include="Chapter8\FrmCustomValidator.aspx" />
+    <Content Include="Chapter8\FrmDropDownListWithRequiredFieldValidator.aspx" />
     <Content Include="Chapter8\FrmRangeValidation.aspx" />
     <Content Include="Chapter8\FrmRangeValidator.aspx" />
     <Content Include="Chapter8\FrmRegularExpressionValidator.aspx" />
@@ -433,6 +434,13 @@
     </Compile>
     <Compile Include="Chapter8\FrmCustomValidator.aspx.designer.cs">
       <DependentUpon>FrmCustomValidator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter8\FrmDropDownListWithRequiredFieldValidator.aspx.cs">
+      <DependentUpon>FrmDropDownListWithRequiredFieldValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter8\FrmDropDownListWithRequiredFieldValidator.aspx.designer.cs">
+      <DependentUpon>FrmDropDownListWithRequiredFieldValidator.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chapter8\FrmRangeValidation.aspx.cs">
       <DependentUpon>FrmRangeValidation.aspx</DependentUpon>

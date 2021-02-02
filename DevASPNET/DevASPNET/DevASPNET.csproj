@@ -116,6 +116,7 @@
     <Content Include="Chapter7\FrmXml.xml" />
     <Content Include="Chapter7\FrmXml.xslt" />
     <None Include="Scripts\jquery-3.5.1.intellisense.js" />
+    <Content Include="Chapter8\FrmCheckBoxRequiredValidationWithCustomValidator.aspx" />
     <Content Include="Chapter8\FrmCompareValidator.aspx" />
     <Content Include="Chapter8\FrmCustomValidator.aspx" />
     <Content Include="Chapter8\FrmDropDownListWithRequiredFieldValidator.aspx" />
@@ -420,6 +421,13 @@
     </Compile>
     <Compile Include="Chapter7\FrmXml.aspx.designer.cs">
       <DependentUpon>FrmXml.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter8\FrmCheckBoxRequiredValidationWithCustomValidator.aspx.cs">
+      <DependentUpon>FrmCheckBoxRequiredValidationWithCustomValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter8\FrmCheckBoxRequiredValidationWithCustomValidator.aspx.designer.cs">
+      <DependentUpon>FrmCheckBoxRequiredValidationWithCustomValidator.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chapter8\FrmCompareValidator.aspx.cs">
       <DependentUpon>FrmCompareValidator.aspx</DependentUpon>

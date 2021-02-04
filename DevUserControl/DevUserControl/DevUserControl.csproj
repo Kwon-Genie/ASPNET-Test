@@ -69,12 +69,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CatalogUserControl.ascx" />
+    <Content Include="CopyrightUserControl.ascx" />
+    <Content Include="CategoryUserControl.ascx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="FrmUserControl.aspx" />
+    <Content Include="NavigatorUserControl.ascx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -187,6 +192,41 @@
     <Content Include="Scripts\popper-utils.js.map" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CatalogUserControl.ascx.cs">
+      <DependentUpon>CatalogUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CatalogUserControl.ascx.designer.cs">
+      <DependentUpon>CatalogUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CopyrightUserControl.ascx.cs">
+      <DependentUpon>CopyrightUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CopyrightUserControl.ascx.designer.cs">
+      <DependentUpon>CopyrightUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CategoryUserControl.ascx.cs">
+      <DependentUpon>CategoryUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CategoryUserControl.ascx.designer.cs">
+      <DependentUpon>CategoryUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUserControl.aspx.cs">
+      <DependentUpon>FrmUserControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmUserControl.aspx.designer.cs">
+      <DependentUpon>FrmUserControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NavigatorUserControl.ascx.cs">
+      <DependentUpon>NavigatorUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NavigatorUserControl.ascx.designer.cs">
+      <DependentUpon>NavigatorUserControl.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

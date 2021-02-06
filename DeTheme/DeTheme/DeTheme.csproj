@@ -67,12 +67,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\Blue\BlueSkin.css" />
+    <Content Include="App_Themes\Red\RedSkin.css" />
+    <Content Include="FrmRedSkin.aspx" />
+    <Content Include="FrmBlueSkin.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmRedSkin.aspx.cs">
+      <DependentUpon>FrmRedSkin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmRedSkin.aspx.designer.cs">
+      <DependentUpon>FrmRedSkin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBlueSkin.aspx.cs">
+      <DependentUpon>FrmBlueSkin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmBlueSkin.aspx.designer.cs">
+      <DependentUpon>FrmBlueSkin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\Blue\BlueSkin.skin" />
+    <Content Include="App_Themes\Red\RedSkin.skin" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -81,6 +101,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

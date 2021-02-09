@@ -67,10 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FrmMenu.aspx" />
     <Content Include="FrmSiteMapPath.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmMenu.aspx.cs">
+      <DependentUpon>FrmMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmMenu.aspx.designer.cs">
+      <DependentUpon>FrmMenu.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FrmSiteMapPath.aspx.cs">
       <DependentUpon>FrmSiteMapPath.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

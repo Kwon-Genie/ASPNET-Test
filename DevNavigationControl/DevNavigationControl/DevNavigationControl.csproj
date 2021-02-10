@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="FrmMenu.aspx" />
     <Content Include="FrmSiteMapPath.aspx" />
+    <Content Include="FrmTreeView.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +86,13 @@
     </Compile>
     <Compile Include="FrmSiteMapPath.aspx.designer.cs">
       <DependentUpon>FrmSiteMapPath.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTreeView.aspx.cs">
+      <DependentUpon>FrmTreeView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmTreeView.aspx.designer.cs">
+      <DependentUpon>FrmTreeView.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -67,9 +67,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FrmStateManagement.aspx" />
+    <Content Include="FrmStateShow.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmStateManagement.aspx.cs">
+      <DependentUpon>FrmStateManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmStateManagement.aspx.designer.cs">
+      <DependentUpon>FrmStateManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStateShow.aspx.cs">
+      <DependentUpon>FrmStateShow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmStateShow.aspx.designer.cs">
+      <DependentUpon>FrmStateShow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -13,11 +13,15 @@ namespace DevStateManagement
         protected void Application_Start(object sender, EventArgs e)
         {
             Application["Now"] = DateTime.Now;
+            Application["CurrentVisit"] = 0;
         }
 
         protected void Session_Start(object sender, EventArgs e)
         {
             Session["Now"] = DateTime.Now;
+            Application.Lock();
+            Application["CurrentVisit"] = (int)Application["CurrentVisit"] + 1;
+            Application.UnLock();
         }
 
         protected void Application_BeginRequest(object sender, EventArgs e)
@@ -37,12 +41,14 @@ namespace DevStateManagement
 
         protected void Session_End(object sender, EventArgs e)
         {
-
+            Application.Lock();
+            Application["CurrentVisit"] = (int)Application["CurrentVisit"] - 1;
+            Application.UnLock();
         }
 
         protected void Application_End(object sender, EventArgs e)
         {
-
+            Application["CurrentVisit"] = null;
         }
     }
 }

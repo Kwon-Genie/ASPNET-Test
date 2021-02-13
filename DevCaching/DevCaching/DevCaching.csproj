@@ -67,9 +67,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FrmCaching.aspx" />
+    <Content Include="FrmCachingResponseCache.aspx" />
+    <Content Include="FrmCachingWebUserControl.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmCaching.aspx.cs">
+      <DependentUpon>FrmCaching.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmCaching.aspx.designer.cs">
+      <DependentUpon>FrmCaching.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCachingResponseCache.aspx.cs">
+      <DependentUpon>FrmCachingResponseCache.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmCachingResponseCache.aspx.designer.cs">
+      <DependentUpon>FrmCachingResponseCache.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCachingWebUserControl.ascx.cs">
+      <DependentUpon>FrmCachingWebUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmCachingWebUserControl.ascx.designer.cs">
+      <DependentUpon>FrmCachingWebUserControl.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
